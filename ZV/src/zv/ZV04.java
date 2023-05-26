@@ -8,7 +8,7 @@ public class ZV04 {
     public static double negyzetgyok(double a) {
         double x = 1;
         for (int i = 0; i < 10; i++) {
-            x = 0.5 * (x + a/x);
+            x = 0.5 * (x + a / x);
         }
         return x;
     }

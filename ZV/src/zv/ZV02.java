@@ -14,7 +14,7 @@ public class ZV02 {
         for (int i = 1; i <= n; i++) {
             if (n % i == 0) osszeg += i;
         }
-        return osszeg == (n*2);
+        return osszeg == (n * 2);
     }
     
     public static void main(String[] args) {
