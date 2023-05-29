@@ -5,11 +5,6 @@ public class ZV02 {
     // Írjon olyan függvényt vagy metódust, amely egy természetes számról eldönti,
     // hogy tökéletes szám-e, vagy sem! (pozitív osztóinak összege a szám kétszerese)
     public static boolean tokeletesSzamE(int n) {
-        if (n < 0) {
-            System.out.println("A(z) "+n+" nem természetes szám!");
-            return false;
-        }
-        
         int osszeg = 0;
         for (int i = 1; i <= n; i++) {
             if (n % i == 0) osszeg += i;

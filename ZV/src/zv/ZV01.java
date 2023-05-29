@@ -4,11 +4,6 @@ public class ZV01 {
     
     // Írjon olyan függvényt vagy metódust, amely egy természetes számról eldönti, hogy prímszám-e, vagy sem!
     public static boolean primE(int n) {
-        if (n < 0) {
-            System.out.println("A(z) "+n+" nem természetes szám!");
-            return false;
-        }
-        
         if (n <= 1) return false;
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) return false;

@@ -11,8 +11,22 @@ public class ZV09 {
     
     public static void main(String[] args) {
         for (int i = 1; i < 20; i++) {
-            System.out.println(i+"/2 = "+i/2);
+            convertBinary(i);
+            System.out.println();
             System.out.println(jobbrolMasodikBit(i));
+            System.out.println("-------");
+        }
+    }
+    
+    public static void convertBinary(int num) {
+        int binary[] = new int[40];
+        int index = 0;
+        while (num > 0) {
+            binary[index++] = num % 2;
+            num = num / 2;
+        }
+        for (int i = index - 1; i >= 0; i--) {
+            System.out.print(binary[i]);
         }
     }
 }
