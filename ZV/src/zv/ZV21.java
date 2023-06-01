@@ -21,5 +21,9 @@ public class ZV21 {
         int[] szamok = new int[]{1, 2, 5};
         if (vanEMindentOszto(szamok)) System.out.println("A tömbben van olyan szám, ami az összes többi osztója.");
         else System.out.println("A tömbben nincs olyan szám, ami az összes többi osztója.");
+        
+        int[] szamok2 = new int[]{2, 3, 5, 7};
+        if (vanEMindentOszto(szamok2)) System.out.println("A tömbben van olyan szám, ami az összes többi osztója.");
+        else System.out.println("A tömbben nincs olyan szám, ami az összes többi osztója.");
     }
 }

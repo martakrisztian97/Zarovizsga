@@ -8,12 +8,11 @@ public class ZV19 {
     // egy „a” karaktert véletlenül választott pozícióba (véletlenszám–generátor használható)!
     public static String karaktertBeszur(String s) {
         Random random = new Random();
-        int index = random.nextInt(s.length());
-        System.out.println(index);
+        int index = random.nextInt(s.length() + 1);
         return s.substring(0, index) + 'a' + s.substring(index);
     }
     
     public static void main(String[] args) {
-        System.out.println(karaktertBeszur("QWERTZ"));
+        System.out.println(karaktertBeszur("VISZLÁT"));
     }
 }
