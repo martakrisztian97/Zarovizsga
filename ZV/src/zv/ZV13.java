@@ -4,7 +4,6 @@ public class ZV13 {
     
     // Írjon olyan függvényt vagy metódust, amely egy karakterláncról vagy sztringről eldönti,
     // hogy palindróma-e! (Balról olvasva ugyanaz, mint jobbról olvasva.)
-    
     public static boolean palindroma(String s) {
         for (int i = 0; i <= s.length()/2; i++) {
             if (s.charAt(i) != s.charAt(s.length()-1-i)) {

@@ -7,7 +7,7 @@ public class ZV11 {
     public static int osztokSzama(int n) {
         int db = 0;
         for (int i = 1; i <= n; i++) {
-            if (n %i == 0) {
+            if (n % i == 0) {
                 db++;
             }
         }

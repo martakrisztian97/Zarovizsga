@@ -8,7 +8,7 @@ public class ZV07 {
         if (n <= 1) return 1;
         int szam = n;
         while (szam * n < 567) {
-            szam = szam * n;
+            szam *= n;
         }
         return szam;
     }

@@ -10,12 +10,12 @@ public class ZV10 {
         int i = 1;
         int sorozatN = 1;
         while (db < 5) {
-            if (sorozatN %x == 0) {
+            if (sorozatN % x == 0) {
                 System.out.println(sorozatN);
                 db++;
             }
             
-            if (i %2 == 1) {
+            if (i % 2 == 1) {
                 sorozatN += 2;
             } else {
                 sorozatN++;

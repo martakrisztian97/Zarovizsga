@@ -4,11 +4,11 @@ public class ZV31 {
     
     // Írjon függvényt vagy metódust, mely a paraméterként kapott 10x10-es mátrixról eldönti,
     // hogy van-e olyan eleme, mely sorában nagyobb és oszlopában pedig kisebb a többi elemnél!
-    public static boolean matrixElem(int[][] matrix) {
+    /*public static boolean matrixElem(int[][] matrix) {
         for (int i = 0; i < 5; i++) {
             
         }
-    }
+    }*/
     
     public static void main(String[] args) {
         int[][] matrix = {
@@ -18,6 +18,6 @@ public class ZV31 {
             {31, 32, 33, 34, 35},
             {41, 42, 43, 44, 45}
         };
-        System.out.println(matrixElem(matrix));
+//        System.out.println(matrixElem(matrix));
     }
 }

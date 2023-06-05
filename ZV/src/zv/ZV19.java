@@ -8,7 +8,7 @@ public class ZV19 {
     // egy „a” karaktert véletlenül választott pozícióba (véletlenszám–generátor használható)!
     public static String karaktertBeszur(String s) {
         Random random = new Random();
-        int index = random.nextInt(s.length() + 1);
+        int index = random.nextInt(s.length() + 1); // + 1, mivel a végére is szúrhatja
         return s.substring(0, index) + 'a' + s.substring(index);
     }
     
