@@ -11,9 +11,7 @@ public class ZV21 {
             db = 0;
             for (int j = 0; j < szamok.length; j++) {
                 if (szamok[j] % szamok[i] == 0) db++;
-                
             }
-            
             if (db == szamok.length) return true;
         }
         return false;
