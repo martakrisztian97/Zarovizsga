@@ -6,7 +6,7 @@ public class ZV06 {
     // A Fibonacci sorozatot az an=an-2+an-1 rekurzióval definiálja (n>2), ahol a1=a2=1.
     public static int fibonaccsi(int n) {
         if (n <= 2) return 1;
-        else return fibonaccsi(n-2) + fibonaccsi(n-1);
+        return fibonaccsi(n-2) + fibonaccsi(n-1);
     }
     
     public static void main(String[] args) {

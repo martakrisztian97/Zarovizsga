@@ -11,5 +11,7 @@ public class ZV29 {
     
     public static void main(String[] args) {
         System.out.println(tized(-12.345));
+        System.out.println(tized(12.345));
+        System.out.println(tized(12.0));
     }
 }
