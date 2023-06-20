@@ -8,10 +8,10 @@ public class ZV03 {
     // véletlenszerűen összekeveri a karaktereket (véletlenszám–generátor használható)!
     public static char[] kever(char[] c) {
         Random r = new Random();
+        int j;
         char temp;
-        
         for (int i = 0; i < c.length; i++) {
-            int j = r.nextInt(c.length);
+            j = r.nextInt(c.length);
             temp = c[i];
             c[i] = c[j];
             c[j] = temp;

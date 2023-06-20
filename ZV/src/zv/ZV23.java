@@ -30,15 +30,17 @@ public class ZV23 {
     }
     
     public static void main(String[] args) {
-        int[] szamok = {1, 2, 3};
-        int[] szamok2 = {1, 2, 3, 4, 1, 2, 3, 4};
-        int[] szamok3 = {1};
-        int[] szamok4 = {1, 1};
-        int[] szamok5 = {2, 1, 1};
+        int[] szamok = {1, 2, 3}; // 0
+        int[] szamok2 = {1, 2, 3, 4, 1, 2, 3, 4}; // 4
+        int[] szamok3 = {1}; // 0
+        int[] szamok4 = {1, 1}; // 1
+        int[] szamok5 = {2, 1, 1}; // 2
+        int[] szamok6 = {1, 2, 3, 1, 2}; // 0
         System.out.println(resz(szamok));
         System.out.println(resz(szamok2));
         System.out.println(resz(szamok3));
         System.out.println(resz(szamok4));
         System.out.println(resz(szamok5));
+        System.out.println(resz(szamok6));
     }
 }

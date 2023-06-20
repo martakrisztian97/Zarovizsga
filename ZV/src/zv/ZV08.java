@@ -5,14 +5,12 @@ public class ZV08 {
     // Írjon olyan függvényt vagy metódust, amely egy természetes szám esetén kiírja,
     // hogy a 9-es számjegyből hány darabot tartalmaz (ne alakítsa át sztringgé/karaktertömbbé)!
     public static int hanyKilences(int n) {
-        int darab = 0;
+        int db = 0;
         while (n > 0) {
-            if (n % 10 == 9) {
-                darab++;
-            }
-            n = n / 10;
+            if (n % 10 == 9) db++;
+            n /= 10;
         }
-        return darab;
+        return db;
     }
     
     public static void main(String[] args) {

@@ -13,8 +13,8 @@ public class ZV33 {
         
         int szamjegy = 0;
         while (lkkt > 0) {
-            lkkt /= 2;
             szamjegy++;
+            lkkt /= 2;
         }
         return szamjegy;
     }

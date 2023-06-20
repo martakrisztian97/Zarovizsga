@@ -17,5 +17,6 @@ public class ZV16 {
     public static void main(String[] args) {
         System.out.println(sztringElofordulasa("Te tetted-e e tettetett tettet, te tettetett tettek tettese, te!", "te"));
         System.out.println(sztringElofordulasa("Te tetted-e e tettetett tettet, te tettetett tettek tettese, te!", "Te"));
+        System.out.println(sztringElofordulasa("te te te!", "te"));
     }
 }

@@ -14,7 +14,7 @@ public class ZV18 {
         char c;
         int i;
         while (s.length() < 5) {
-            c = (char)(r.nextInt('z' - 'a' + 1) + 'a');
+            c = (char) (r.nextInt('z' - 'a' + 1) + 'a');
             for (i = 0; i < s.length(); i++) {
                 if (s.charAt(i) == c) break;
             }

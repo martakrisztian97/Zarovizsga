@@ -15,11 +15,8 @@ public class ZV10 {
                 db++;
             }
             
-            if (i % 2 == 1) {
-                sorozatN += 2;
-            } else {
-                sorozatN++;
-            }
+            if (i % 2 == 0) sorozatN++;
+            else sorozatN += 2;
             i++;
         }
     }

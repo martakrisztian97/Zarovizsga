@@ -27,17 +27,18 @@ public class ZV22 {
             }
         }
         
-        if (gyak.length > 1 && gyak[0] > gyak[1] && gyak[0] != 0) return true;
+        if (gyak.length > 1 && gyak[0] > gyak[1] && gyak[1] != 0) return true;
         
         return false;
     }
     
     public static void main(String[] args) {
         int[] szamok = {1, 1, 1, 2, 2, 3, 3, 4, 5, 6, 7};
-        int[] szamok2 = {0};
+        int[] szamok2 = {1};
         int[] szamok3 = {2, 2};
         int[] szamok4 = {1, 1, 1, 1, 1, 1};
-        System.out.println(tobbszorMintATobbi(szamok2));
+        int[] szamok5 = {3, 3, 3, 1, 2, 2, 1, 1, 2};
+        System.out.println(tobbszorMintATobbi(szamok5));
     }
    
 }

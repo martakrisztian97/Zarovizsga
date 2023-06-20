@@ -6,8 +6,9 @@ public class ZV12 {
     // számjegyek kivételével minden karaktert eltávolít!
    public static String eltavolit(String s) {
        String eredmeny = "";
+       char c;
        for (int i = 0; i < s.length(); i++) {
-           char c = s.charAt(i);
+           c = s.charAt(i);
            if (c >= '0' && c <= '9' ) {
                eredmeny += c;
            }
