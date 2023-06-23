@@ -17,10 +17,11 @@ public class ZV22 {
             gyak[szamok[i]-1]++;
         }
         
+        int temp;
         for (int i = 0; i < gyak.length-1; i++) {
             for (int j = 0; j < gyak.length-i-1; j++) {
                 if (gyak[j] < gyak[j+1]) {
-                    int temp = gyak[j];
+                    temp = gyak[j];
                     gyak[j] = gyak[j+1];
                     gyak[j+1] = temp;
                 }
